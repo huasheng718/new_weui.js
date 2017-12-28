@@ -469,7 +469,7 @@ function datePicker(options) {
         let M = findBy(Y.children, 'value', month);
         if (!M) {
             M = {
-                label: month + '月',
+                label: month + '月',//输出文本月
                 value: month,
                 children: []
             };
