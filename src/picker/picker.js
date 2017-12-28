@@ -540,7 +540,7 @@ function datePickerYM(options){
         let M = findBy(Y.children, 'value', month);
         if (!M) {
             M = {
-                label: month + '月',
+                label: month + '月',//lable
                 value: month
             };
             Y.children.push(M);
